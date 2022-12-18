@@ -32,6 +32,11 @@ module.exports = {
             accounts: [PRIVATE_KEY],
             blockConfirmations: 5,
         },
+        localhost: {
+            chainId: 31337,
+            blockConfirmations: 1,
+            allowUnlimitedContractSize: true,
+        },
     },
     gasReporter: {
         enabled: false,
